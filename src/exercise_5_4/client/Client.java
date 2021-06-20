@@ -15,7 +15,7 @@ public class Client {
 
 	public static void main(String[] args0) throws Exception {
 		//读取语法文件
-		List<ParkingField> pfs = TextFileReader.constructParkingFields("d:\\example.txt");
+		List<ParkingField> pfs = TextFileReader.constructParkingFields("src\\exercise_5_4\\client\\example.txt");
 		
 		for (ParkingField pf : pfs) 
 			System.out.println(pf);
